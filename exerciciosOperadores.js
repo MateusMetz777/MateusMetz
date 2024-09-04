@@ -226,8 +226,8 @@ let s14 = 10
 let t14 = "20"
 let num = Number(t14)
 
-console.log(num + s14)
-console.log(typeof (num + s14))
+let resultadoo1 = Number(t14) + s14
+console.log(resultadoo1, typeof resultadoo1)
 
 
 
@@ -283,10 +283,12 @@ console.log(b18 + num + d18)
 // Declare uma variável com um valor numérico e converta-a para uma string usando toString().
 // Depois, converta a string de volta para número usando Number() e exiba o tipo da variável em cada etapa no console.
 
-let numerosss = 1
-numm = numerosss.toString()
-
-
+let opa = 2
+console.log(opa, typeof opa)
+let opa2 = opa.toString()
+console.log(opa2, typeof opa2)
+let opa3 = Number(opa2)
+console.log(opa3, typeof opa3)
 
 
 //20.
@@ -294,12 +296,25 @@ numm = numerosss.toString()
 // Calcule o total a receber e verifique se o valor é maior que 500.
 // Exiba a resposta no console.
 
+let horasTrabalhadas = 4
+let valorPagoPorHoras = 150
+let valorQueVaiReceber = valorPagoPorHoras * horasTrabalhadas
+console.log(valorQueVaiReceber)
+console.log(valorQueVaiReceber > 500)
+
+
+
 
 
 
 //21.
 // Declare uma constante com um valor booleano qualquer.
 // Em seguida, converta esse valor para número e exiba o valor convertido no console.
+
+const qualquer = true
+let qualquer2 = Number(qualquer)
+console.log(qualquer2)
+
 
 
 
@@ -309,7 +324,9 @@ numm = numerosss.toString()
 // Em seguida, crie uma variável que armazene a quantidade de caracteres desse nome.
 // Exiba a quantidade de caracteres no console.
 
-
+const nomeCompleto = "Mateus de Avila Metz"
+let caracteresDoNome = nomeCompleto.length
+console.log(nomeCompleto ,caracteresDoNome) 
 
 
 //23.
@@ -317,4 +334,11 @@ numm = numerosss.toString()
 // Subtraia um número do outro e verifique se o resultado é negativo.
 // Exiba a resposta no console.
 
+let um = 1
+let dois = 2
+let subtracao = um - dois
+console.log((subtracao) < 0)
+ 
+
+//o resultado vai ser negativo.
 
